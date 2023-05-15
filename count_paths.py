@@ -93,7 +93,7 @@ def dfs(node,grid, color, sons):
 
 def makeAPath(sons,m,n):
     '''Returns a paths from A to B or None if there is no
-    sons : dictionarie
+    sons : dictionary
     m, n : grid dimensions
     '''
     v = (0,0)
